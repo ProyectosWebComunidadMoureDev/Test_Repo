@@ -6,6 +6,11 @@
 h1{
     background-color: blueviolet;
     font-size: 4rem;
+    padding: 1rem 2rem;
+}
+select {
+    background-color: aquamarine;
+    color: blue;
     pading: 1rem 2rem;
 }
 footer{
