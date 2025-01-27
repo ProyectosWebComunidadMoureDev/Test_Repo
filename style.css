@@ -1,23 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#molon {
+    width: 80%;
+    min-width: 350px;
+    max-width: 1200px;
 }
-h1{
-    background-color: blueviolet;
-    font-size: 4rem;
-    padding: 1rem 2rem;
+
+@media (min-width: 1921px) and (max-width: 3840px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        background-color: blueviolet;
+        font-size: 4rem;
+        padding: 1rem 2rem;
+    }
+    select {
+        background-color: aquamarine;
+        color: blue;
+        padding: 1rem 2rem;
+    }
+    footer{
+        background-color: burlywood;
+        font-size: 4rem;
+    }
+    #molon{
+        font-size: 4rem;
+        color: chocolate;
+    }
 }
-select {
-    background-color: aquamarine;
-    color: blue;
-    padding: 1rem 2rem;
+
+@media (min-width: 757px) and (max-width: 1920px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    #molon {
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+    }
 }
-footer{
-    background-color: burlywood;
-    font-size: 4rem;
-}
-#molon{
-    font-size: 4rem;
-    color: chocolate;
+
+@media (max-width: 757px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    #molon {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        font-size: small;
+    }
 }
